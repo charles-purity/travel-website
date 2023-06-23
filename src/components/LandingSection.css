@@ -1,14 +1,14 @@
-/* video {
+video {
     object-fit: cover;
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
-} */
+}
 
 .landing-container {
-    background: url('/public/images/img-home.jpg')
-    center center/cover no-repeat;
+    /* background: url('/public/images/img-home.jpg')
+    center center/cover no-repeat;  */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -17,3 +17,30 @@
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
 }
+
+.landing-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 100px;
+  }
+  
+  .landing-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .landing-btns {
+    margin-top: 32px;
+  }
+  
+  .landing-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  

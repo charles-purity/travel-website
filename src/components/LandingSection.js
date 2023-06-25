@@ -7,8 +7,8 @@ function LandingSection() {
   return (
     <div className='landing-container'>
       <video src='/videos/video-2.mp4' autoPlay loop muted />
-      <h1> SWIFT ADVENTURE</h1>
-      <p></p>
+      <h1> AMAZING EXPERIENCE</h1>
+      <p>Bringing your imagination to existence</p>
       <div className='landing-btns'>
         <Button
           className='btns'
